@@ -1,0 +1,30 @@
+{
+  "name": "nasa-launch-api",
+  "version": "1.0.0",
+  "description": "NASA Space Mission",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "watch": "set PORT=5000 && nodemon src/server.js",
+    "start": "set PORT=5000 && node src/server.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.2.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nasa-project": "file:.."
+  },
+  "devDependencies": {
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.18",
+    "supertest": "^6.2.3"
+  }
+}
