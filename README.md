@@ -34,5 +34,4 @@ You can lookup _package.json_ file in the root directory for more useful command
 
 ---
 
-<br />
 <h1 align="center">Thankyou</h1>
